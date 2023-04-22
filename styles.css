@@ -1,3 +1,4 @@
+/* General */
 #logo {
     display: block;
     margin: auto;
@@ -14,6 +15,7 @@ img {
     max-height: 100%;
     transition: 0.2s;
 }
+
 
 
 /* Breadcrumb */
@@ -50,6 +52,7 @@ img {
         font-size: 12px;
     }
 }
+
 
 
 /* Top Navbar - For Desktop: */
@@ -95,6 +98,7 @@ img {
 }
 
 
+
 /* Top Navbar - For Mobile: */
 @media (max-width: 960px) {
     #topNav {
@@ -130,7 +134,8 @@ img {
         display: block;
     }
 
-    .mobile-nav-icon:hover+#topNav {
+    .mobile-nav-icon:hover+#topNav,
+    .mobile-nav-icon:active+#topNav {
         display: block;
     }
 
@@ -138,6 +143,7 @@ img {
         display: block;
     }
 }
+
 
 
 /* Main Content - Desktop*/
@@ -200,6 +206,7 @@ h3 a:hover {
     text-align: center;
 }
 
+
 /* Main Content - Mobile*/
 @media (max-width: 960px) {
     h1 {
@@ -221,6 +228,7 @@ h3 a:hover {
 }
 
 
+
 /* Book Detail Page - Desktop*/
 .book-detail-container {
     display: flex;
@@ -238,6 +246,11 @@ h3 a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.small-img-effect:hover {
+    transition: 0.2s;
+    transform: scale(1.09, 1.09);
 }
 
 .price {
@@ -263,6 +276,7 @@ h3 a:hover {
     font-size: 25px;
     margin: 0 200px;
 }
+
 
 /* Book Detail Page - Mobile*/
 @media (max-width: 960px) {
