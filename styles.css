@@ -134,7 +134,6 @@ img {
         display: block;
     }
 
-    .mobile-nav-icon:hover+#topNav,
     .mobile-nav-icon:active+#topNav {
         display: block;
     }
