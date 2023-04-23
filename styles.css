@@ -238,13 +238,14 @@ h3 a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 150px
+    margin-left: 300px;
 }
 
 .small-img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 100px;
 }
 
 .small-img-effect:hover {
@@ -256,7 +257,7 @@ h3 a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 0 0 300px;
+    margin-left: 200px;
 }
 
 .price button {
@@ -291,6 +292,8 @@ h3 a:hover {
     .small-img {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        margin: 0;
     }
 
     .price {
