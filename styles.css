@@ -1,3 +1,13 @@
+/*
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Chu Khai Minh
+ID: s3864172
+Acknowledgement: COSC2430 courses, W3Schools.
+*/
+
 /* General */
 #logo {
     display: block;
@@ -5,7 +15,6 @@
 }
 
 body {
-    background-color: white;
     color: black;
     font-family: "Comic Sans MS";
 }
